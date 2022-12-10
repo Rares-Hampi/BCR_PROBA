@@ -3,16 +3,32 @@
  *
  * get
  */
-const axios = require ("axios");
+const axios = require('axios');
+// const e = require('express');
 
-const get = async () => {
-  const { data } = await axios.get("https://api.bcr.ro/api/v1/appointments/branches", {
-    headers: {
-      accept: "aplication/json",
-      apiKey: 'Appo!ntm3nt@PikY3'
-    }
+// const get = async () => {
+//   const { data } = await axios.get("http://localhost:3000", {
+//     headers: {
+//       accept: "aplication/json",
+//     }js
+//   })
+//   return data;
+
+// }
+// console.log(get())
+const func = ()=>{
+axios.get("http://localhost:3000")
+  .then(resp => {
+    data = resp.data;
+    data.forEach(e => {
+        console.log(`${e.brn}`)
+
+    });
+
   })
-  return data;
 
-}
-console.log(get())
+  .catch(error => {
+      console.log(error);
+
+  });}
+  func()
