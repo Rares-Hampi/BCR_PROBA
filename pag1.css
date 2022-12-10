@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: #1a67d2;
+}
+.navbar ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+}
+.navbar ul li {
+  color: white;
+  font-size: 20px;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(235, 233, 233);
+}
+.page .status-bar {
+  margin-top: 30px;
+  text-align: center;
+}
+.page .status-bar p {
+  color: gray;
+}
+.page .status-bar progress {
+  width: 450px;
+}
+.page .section {
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.page .section h1 {
+  font-size: 25px;
+}
+.page .section .txt {
+  inline-size: 500px;
+  align-self: center;
+  margin-left: 10px;
+  font-size: 16px;
+}
+.page .section .options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+  background-color: white;
+  list-style: none;
+  text-align: center;
+}
+.page .section .options li {
+  width: 90%;
+  text-align: left;
+}
+.page .section .options li .option {
+  border: 2px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #1a67d2;
+  cursor: pointer;
+}
+.page .section .options li .option:hover {
+  border-color: #1a67d2;
+}
+.page .section .options li .show {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  inline-size: 450px;
+  line-height: 1.5;
+  padding: 10px;
+  border: 1px solid blue;
+  display: none;
+  font-size: 14px;
+  color: #21416c;
+  background-color: rgba(29, 91, 249, 0.144);
+}
+.page .section .options li .msg1 {
+  inline-size: 450px;
+  line-height: 1.5;
+  padding: 10px;
+  border: 1px solid red;
+  background-color: rgba(249, 29, 29, 0.144);
+}
+.page .section button {
+  background-color: blue;
+  width: 90%;
+  padding: 10px;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.page .section button a {
+  color: white;
+  text-decoration: none;
+} /*# sourceMappingURL=page1.css.map */
