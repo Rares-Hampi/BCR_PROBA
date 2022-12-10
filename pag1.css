@@ -1,0 +1,66 @@
+.titlu
+{
+    box-sizing: border-box;
+    background-color: #1A67D2;
+    font-family: 'Inter', sans-serif;
+    color:white;
+    font-size: 16px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+.perand
+{
+    flex-direction: row;
+}
+.lista
+{
+    text-align: center;
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 56px;
+}
+section
+{
+    width: 70%;
+    background-color: aliceblue;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 60px;
+
+}
+.schimbare-limba
+{
+    color: black;
+}
+.buton
+{
+    background-color: #1A67D2;
+    color: white;
+    padding: 15px 0px;
+    font: 18px Arial, Helvetica, sans-serif;
+}
+.elemlista
+{
+    color: #1A67D2;
+    background-color: white;
+    margin: 10px 0px;
+    border: solid;
+    font: 16px Inter, sans-serif;
+    padding: 8px 10px 8px 15px;
+}
+.pas1
+{
+    color: #5c7999;
+}
