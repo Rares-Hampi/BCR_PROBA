@@ -1,0 +1,201 @@
+{0: {orgId: 55400, branchId: 318, brn: "BCR Calarasi",…},
+1: {orgId: 52271, branchId: 3670, brn: "BCR 21 Decembrie",…}
+2: {orgId: 51100, branchId: 229, brn: "BCR Alba",…}
+3: {orgId: 51120, branchId: 364, brn: "BCR Campeni", br_street: "Piata Avram Iancu nr.8, Campeni, Alba",…}
+4: {orgId: 52280, branchId: 155, brn: "BCR Marasti",…}
+5: {orgId: 52297, branchId: 3110, brn: "BCR Piata Garii",…}
+6: {orgId: 54910, branchId: 123, brn: "BCR Adjud",…}
+7: {orgId: 51900, branchId: 307, brn: "BCR Braila", br_street: "Calea Calarasilor, nr.53, Braila, Braila",…}
+8: {orgId: 54440, branchId: 230, brn: "BCR Videle",…}
+9: {orgId: 52575, branchId: 2131, brn: "BCR Coresi",…}
+10: {orgId: 52500, branchId: 328, brn: "BCR Nicu Circiumarescu",…}
+11: {orgId: 53810, branchId: 283, brn: "BCR Caracal", br_street: "Strada N.Titulescu nr. 13, Caracal, Olt",…}
+12: {orgId: 53860, branchId: 154, brn: "BCR Corabia",…}
+13: {orgId: 53800, branchId: 394, brn: "BCR Olt", br_street: "Strada Basarabilor nr. 1, Slatina, Olt",…}
+14: {orgId: 54100, branchId: 396, brn: "BCR Salaj",…}
+15: {orgId: 54160, branchId: 309, brn: "BCR Simleul Silvaniei",…}
+16: {orgId: 54520, branchId: 373, brn: "BCR Lugoj", br_street: "Strada Cuza Voda nr. 4, Lugoj, Timis",…}
+17: {orgId: 54511, branchId: 3687, brn: "BCR Timisoara Shopping City",…}
+18: {orgId: 54210, branchId: 365, brn: "BCR Agnita", br_street: "Strada 1 Decembrie nr. 1, Agnita, Sibiu",…}
+19: {orgId: 55169, branchId: 3679, brn: "BCR Unirea Shopping Center",…}
+20: {orgId: 55048, branchId: 251, brn: "BCR Serban Voda",…}
+21: {orgId: 55124, branchId: 1627, brn: "BCR Oltenitei",…}
+22: {orgId: 55059, branchId: 1308, brn: "BCR Gheorghe Sincai",…}
+23: {orgId: 55066, branchId: 1350, brn: "BCR Nerva Traian",…}
+24: {orgId: 51196, branchId: 190, brn: "BCR Cetate",…}
+25: {orgId: 51110, branchId: 130, brn: "BCR Aiud", br_street: "Strada Transilvaniei Bl. A 13, Aiud, Alba",…}
+26: {orgId: 51140, branchId: 145, brn: "BCR Blaj", br_street: "Bulevardul Republicii nr.6, Blaj, Alba",…}
+27: {orgId: 51150, branchId: 189, brn: "BCR Cugir",…}
+28: {orgId: 51130, branchId: 266, brn: "BCR Sebes", br_street: "Strada Mihai Viteazu nr.2, Sebes, Alba",…}
+29: {orgId: 53440, branchId: 161, brn: "BCR Borsa",…}
+30: {orgId: 53435, branchId: 1617, brn: "BCR Iza",…}
+31: {orgId: 53404, branchId: 3696, brn: "BCR Mara",…}
+32: {orgId: 53400, branchId: 275, brn: "BCR Maramures",…}
+33: {orgId: 53410, branchId: 388, brn: "BCR Sighetu Marmatiei",…}
+34: {orgId: 52250, branchId: 146, brn: "BCR Campia Turzii",…}
+35: {orgId: 52275, branchId: 260, brn: "BCR Cipariu",…}
+36: {orgId: 52295, branchId: 261, brn: "BCR Huedin",…}
+37: {orgId: 52285, branchId: 184, brn: "BCR Manastur",…}
+38: {orgId: 52211, branchId: 3680, brn: "BCR Memorandumului",…}
+39: {orgId: 52255, branchId: 1211, brn: "BCR Napoca",…}
+40: {orgId: 52225, branchId: 1401, brn: "BCR Polus", br_street: "DN1 parter, Comuna Floresti, Cluj",…}
+41: {orgId: 52277, branchId: 1531, brn: "BCR Somes",…}
+42: {orgId: 52240, branchId: 369, brn: "BCR Turda", br_street: "Piata 1 Decembrie 1918 nr.29, Turda, Cluj",…}
+43: {orgId: 52272, branchId: 1530, brn: "BCR Zorilor",…}
+44: {orgId: 52200, branchId: 141, brn: "BCR Cluj",…}
+45: {orgId: 52210, branchId: 238, brn: "BCR Dej", br_street: "Strada Bobalna nr.5, Dej, Cluj",…}
+46: {orgId: 52270, branchId: 329, brn: "BCR Gherla",…}
+47: {orgId: 51620, branchId: 313, brn: "BCR Beclean",…}
+48: {orgId: 51600, branchId: 140, brn: "BCR Bistrita Nasaud",…}
+49: {orgId: 51610, branchId: 325, brn: "BCR Nasaud",…}
+50: {orgId: 51650, branchId: 1761, brn: "BCR Viisoara",…}
+51: {orgId: 54915, branchId: 1298, brn: "BCR Big Centru",…}
+52: {orgId: 54900, branchId: 285, brn: "BCR Vrancea",…}
+53: {orgId: 51400, branchId: 362, brn: "BCR Bacau", br_street: "Strada 9 Mai nr.11, Bacau, Bacau",…}
+54: {orgId: 51460, branchId: 147, brn: "BCR Bacovia", br_street: "Strada Mioritei nr.1, Bacau, Bacau",…}
+55: {orgId: 51450, branchId: 162, brn: "BCR Comanesti",…}
+56: {orgId: 51445, branchId: 1469, brn: "BCR Luceafarul",…}
+57: {orgId: 51420, branchId: 131, brn: "BCR Moinesti", br_street: "Strada Zorilor nr.23, Moinesti, Bacau",…}
+58: {orgId: 51410, branchId: 323, brn: "BCR Onesti", br_street: "Strada Belvedere nr.1, Onesti, Bacau",…}
+59: {orgId: 51480, branchId: 1336, brn: "BCR Orizont",…}
+60: {orgId: 51440, branchId: 389, brn: "BCR Targu Ocna",…}
+61: {orgId: 53223, branchId: 1698, brn: "BCR Alexandru cel Bun",…}
+62: {orgId: 53275, branchId: 1701, brn: "BCR Nicolina",…}
+63: {orgId: 53217, branchId: 1697, brn: "BCR Pacurari",…}
+64: {orgId: 53255, branchId: 1699, brn: "BCR Palat", br_street: "Strada Palat nr.1, Iasi, Iasi",…}
+65: {orgId: 53210, branchId: 358, brn: "BCR Pascani", br_street: "Strada St.cel Mare nr. 5, Pascani, Iasi",…}
+66: {orgId: 53220, branchId: 124, brn: "BCR Podu Iloaiei",…}
+67: {orgId: 53250, branchId: 431, brn: "BCR Targu Frumos",…}
+68: {orgId: 53240, branchId: 149, brn: "BCR A. I. Cuza",…}
+69: {orgId: 53200, branchId: 113, brn: "BCR Iasi", br_street: "Strada Palat nr. 11, Iasi, Iasi",…}
+70: {orgId: 53285, branchId: 1702, brn: "BCR Independentei",…}
+71: {orgId: 51700, branchId: 236, brn: "BCR Botosani",…}
+72: {orgId: 51760, branchId: 346, brn: "BCR Dorohoi",…}
+73: {orgId: 51745, branchId: 1430, brn: "BCR Nicolae Iorga",…}
+74: {orgId: 51725, branchId: 1414, brn: "BCR Primaverii",…}
+75: {orgId: 51730, branchId: 219, brn: "BCR Saveni",…}
+76: {orgId: 54310, branchId: 336, brn: "BCR Campulung Moldovenesc",…}
+77: {orgId: 54320, branchId: 103, brn: "BCR Falticeni", br_street: "Strada Sucevei, Falticeni, Suceava",…}
+78: {orgId: 54390, branchId: 194, brn: "BCR Gura Humorului",…}
+79: {orgId: 54355, branchId: 1614, brn: "BCR Obcini",…}
+80: {orgId: 54340, branchId: 337, brn: "BCR Radauti", br_street: "Strada Unirii nr. 65, Radauti, Suceava",…}
+81: {orgId: 54360, branchId: 211, brn: "BCR Siret",…}
+82: {orgId: 54300, branchId: 312, brn: "BCR Suceava",…}
+83: {orgId: 54350, branchId: 304, brn: "BCR Vatra Dornei",…}
+84: {orgId: 53730, branchId: 327, brn: "BCR Bicaz", br_street: "Strada Barajului nr. 2A, Bicaz, Neamt",…}
+85: {orgId: 53700, branchId: 267, brn: "BCR Neamt",…}
+86: {orgId: 53715, branchId: 1692, brn: "BCR Precista",…}
+87: {orgId: 53710, branchId: 367, brn: "BCR Roman",…}
+88: {orgId: 53720, branchId: 276, brn: "BCR Targu Neamt",…}
+89: {orgId: 54670, branchId: 3411, brn: "BCR Babadag",…}
+90: {orgId: 54620, branchId: 352, brn: "BCR Macin",…}
+91: {orgId: 54630, branchId: 1453, brn: "BCR Panait Cerna",…}
+92: {orgId: 54610, branchId: 132, brn: "BCR Sulina", br_street: "Strada a II a nr. 274, Sulina, Tulcea",…}
+93: {orgId: 54600, branchId: 232, brn: "BCR Tulcea", br_street: "Strada Toamnei nr. 2, Tulcea, Tulcea",…}
+94: {orgId: 55420, branchId: 177, brn: "BCR Lehliu Gara",…}
+95: {orgId: 55440, branchId: 1752, brn: "BCR Mircea Voda",…}
+96: {orgId: 55410, branchId: 179, brn: "BCR Oltenita",…}
+97: {orgId: 53120, branchId: 241, brn: "BCR Fetesti",…}
+98: {orgId: 53100, branchId: 110, brn: "BCR Ialomita",…}
+99: {orgId: 53150, branchId: 344, brn: "BCR Tandarei",…}
+100: {orgId: 53110, branchId: 204, brn: "BCR Urziceni",…}
+101: {orgId: 52393, branchId: 1930, brn: "BCR Balada",…}
+102: {orgId: 52350, branchId: 198, brn: "BCR Cernavoda",…}
+103: {orgId: 52365, branchId: 1457, brn: "BCR Delfinul",…}
+104: {orgId: 52330, branchId: 199, brn: "BCR Medgidia",…}
+105: {orgId: 52380, branchId: 390, brn: "BCR Palas",…}
+106: {orgId: 52300, branchId: 342, brn: "BCR Constanta",…}
+107: {orgId: 52385, branchId: 326, brn: "BCR Mamaia",…}
+108: {orgId: 52340, branchId: 240, brn: "BCR Mangalia",…}
+109: {orgId: 52370, branchId: 345, brn: "BCR Navodari",…}
+110: {orgId: 52392, branchId: 1471, brn: "BCR Tomis Nord",…}
+111: {orgId: 51990, branchId: 1335, brn: "BCR 1 Decembrie",…}
+112: {orgId: 51940, branchId: 357, brn: "BCR Panait Istrati",…}
+113: {orgId: 52000, branchId: 128, brn: "BCR Buzau", br_street: "Strada Unirii nr.207, Buzau, Buzau",…}
+114: {orgId: 52020, branchId: 281, brn: "BCR Ramnicu Sarat",…}
+115: {orgId: 52030, branchId: 1270, brn: "BCR Vasile Voiculescu",…}
+116: {orgId: 52735, branchId: 1756, brn: "BCR Dunarea",…}
+117: {orgId: 52700, branchId: 122, brn: "BCR Galati",…}
+118: {orgId: 52755, branchId: 1758, brn: "BCR Micro 40",…}
+119: {orgId: 52725, branchId: 1755, brn: "BCR Nord",…}
+120: {orgId: 52790, branchId: 2130, brn: "BCR Port",…}
+121: {orgId: 52720, branchId: 374, brn: "BCR Tecuci",…}
+122: {orgId: 52730, branchId: 274, brn: "BCR Traian",…}
+123: {orgId: 54710, branchId: 119, brn: "BCR Barlad",…}
+124: {orgId: 54730, branchId: 384, brn: "BCR Husi", br_street: "Strada Al.I.Cuza nr. 3, Husi, Vaslui",…}
+125: {orgId: 54720, branchId: 353, brn: "BCR Negresti",…}
+126: {orgId: 54760, branchId: 1281, brn: "BCR Podul Inalt",…}
+127: {orgId: 54700, branchId: 226, brn: "BCR Vaslui",…}
+128: {orgId: 53910, branchId: 233, brn: "BCR Campina",…}
+129: {orgId: 53915, branchId: 1030, brn: "BCR Partizani",…}
+130: {orgId: 53920, branchId: 114, brn: "BCR Sinaia",…}
+131: {orgId: 55013, branchId: 530, brn: "BCR Piata Rosetti",…}
+132: {orgId: 53955, branchId: 1297, brn: "BCR Cantacuzino",…}
+133: {orgId: 53990, branchId: 157, brn: "BCR Mizil",…}
+134: {orgId: 53945, branchId: 1296, brn: "BCR Ploiesti Sud",…}
+135: {orgId: 53940, branchId: 402, brn: "BCR Valenii de Munte",…}
+136: {orgId: 53900, branchId: 306, brn: "BCR Prahova",…}
+137: {orgId: 51320, branchId: 1510, brn: "BCR Alexandru Davila",…}
+138: {orgId: 51300, branchId: 153, brn: "BCR Arges", br_street: "Strada Republicii nr.83, Pitesti, Arges",…}
+139: {orgId: 51365, branchId: 1514, brn: "BCR Exercitiu",…}
+140: {orgId: 51340, branchId: 164, brn: "BCR Pitesti",…}
+141: {orgId: 51350, branchId: 279, brn: "BCR Prundu",…}
+142: {orgId: 51310, branchId: 231, brn: "BCR Campulung Muscel",…}
+143: {orgId: 51330, branchId: 109, brn: "BCR Curtea de Arges",…}
+144: {orgId: 51303, branchId: 3689, brn: "BCR Dacia",…}
+145: {orgId: 51325, branchId: 1511, brn: "BCR Mioveni",…}
+146: {orgId: 54430, branchId: 387, brn: "BCR Rosiorii de Vede",…}
+147: {orgId: 54400, branchId: 135, brn: "BCR Teleorman",…}
+148: {orgId: 54420, branchId: 181, brn: "BCR Turnu Magurele",…}
+149: {orgId: 52510, branchId: 112, brn: "BCR Gaesti",…}
+150: {orgId: 52530, branchId: 406, brn: "BCR Moreni",…}
+151: {orgId: 52520, branchId: 395, brn: "BCR Pucioasa",…}
+152: {orgId: 52550, branchId: 340, brn: "BCR Titu", br_street: "Strada I.C.Visarion nr.8, Titu, Dambovita",…}
+153: {orgId: 55330, branchId: 176, brn: "BCR Bolintin Vale",…}
+154: {orgId: 55300, branchId: 195, brn: "BCR Giurgiu",…}
+155: {orgId: 52800, branchId: 371, brn: "BCR Gorj", br_street: "Strada Geneva nr.2, Targu Jiu, Gorj",…}
+156: {orgId: 52810, branchId: 284, brn: "BCR Motru",…}
+157: {orgId: 52870, branchId: 2570, brn: "BCR Rovinari",…}
+158: {orgId: 52840, branchId: 1410, brn: "BCR Victoria Gorj",…}
+159: {orgId: 52610, branchId: 1276, brn: "BCR Craiovita",…}
+160: {orgId: 52600, branchId: 221, brn: "BCR Dolj", br_street: "Strada Olteţ nr.4, Craiova, Dolj",…}
+161: {orgId: 52630, branchId: 305, brn: "BCR Filiasi",…}
+162: {orgId: 52660, branchId: 115, brn: "BCR Lapus",…}
+163: {orgId: 52620, branchId: 1278, brn: "BCR Mihai Viteazu",…}
+164: {orgId: 52650, branchId: 302, brn: "BCR Calafat",…}
+165: {orgId: 52670, branchId: 116, brn: "BCR Patria",…}
+166: {orgId: 52625, branchId: 1279, brn: "BCR Romanescu",…}
+167: {orgId: 53500, branchId: 354, brn: "BCR Mehedinti",…}
+168: {orgId: 53530, branchId: 311, brn: "BCR Orsova",…}
+169: {orgId: 53570, branchId: 1610, brn: "BCR Severin",…}
+170: {orgId: 53830, branchId: 263, brn: "BCR Bals", br_street: "Strada N.Balcescu nr. 186 A, Bals, Olt",…}
+171: {orgId: 53880, branchId: 1751, brn: "BCR Beica", br_street: "Strada Crisan II nr. 4, Slatina, Olt",…}
+172: {orgId: 53870, branchId: 1750, brn: "BCR Steaua",…}
+173: {orgId: 54800, branchId: 223, brn: "BCR Valcea",…}
+174: {orgId: 54820, branchId: 121, brn: "BCR Dragasani",…}
+175: {orgId: 54830, branchId: 381, brn: "BCR Horezu",…}
+176: {orgId: 54815, branchId: 1290, brn: "BCR Ostroveni",…}
+177: {orgId: 54825, branchId: 1291, brn: "BCR Valcea Nord",…}
+178: {orgId: 51200, branchId: 217, brn: "BCR Arad",…}
+179: {orgId: 51280, branchId: 210, brn: "BCR Avram Iancu",…}
+180: {orgId: 51250, branchId: 158, brn: "BCR Chisineu Cris",…}
+181: {orgId: 51225, branchId: 1534, brn: "BCR Fortuna",…}
+182: {orgId: 51220, branchId: 203, brn: "BCR Ineu", br_street: "Strada Republicii nr.40, Ineu, Arad",…}
+183: {orgId: 51275, branchId: 1539, brn: "BCR Lipova",…}
+184: {orgId: 51510, branchId: 315, brn: "BCR Beius", br_street: "Strada Samuil Vulcan nr.11, Beius, Bihor",…}
+185: {orgId: 51500, branchId: 351, brn: "BCR Bihor", br_street: "Strada D.Cantemir nr.2/c, Oradea, Bihor",…}
+186: {orgId: 51550, branchId: 191, brn: "BCR Salonta",…}
+187: {orgId: 51530, branchId: 137, brn: "BCR Stei", br_street: "Strada Cuza Voda nr.9, Stei, Bihor",…}
+188: {orgId: 51520, branchId: 188, brn: "BCR Alesd", br_street: "Strada Bobalna nr.1, Alesd, Bihor",…}
+189: {orgId: 51555, branchId: 1624, brn: "BCR Decebal",…}
+190: {orgId: 51540, branchId: 200, brn: "BCR Marghita",…}
+191: {orgId: 51525, branchId: 1621, brn: "BCR Rogerius",…}
+192: {orgId: 51570, branchId: 2350, brn: "BCR Varadinum",…}
+193: {orgId: 51590, branchId: 3230, brn: "BCR Vulturul Negru",…}
+194: {orgId: 54120, branchId: 213, brn: "BCR Cehu Silvaniei",…}
+195: {orgId: 54110, branchId: 159, brn: "BCR Jibou", br_street: "Strada 1 Mai nr. 21/A, Jibou, Salaj",…}
+196: {orgId: 54040, branchId: 262, brn: "BCR Carei",…}
+197: {orgId: 54015, branchId: 1437, brn: "BCR Crisan",…}
+198: {orgId: 54020, branchId: 101, brn: "BCR Negresti Oas",…}
+199: {orgId: 54000, branchId: 129, brn: "BCR Satu Mare",…}}
+
