@@ -74,41 +74,50 @@ body {
   font-weight: bold;
   inline-size: 400px;
 }
-.page .section label {
+.page .section form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 10px;
+  flex-wrap: wrap;
+  margin-left: 15px;
+  gap: 10px;
+}
+.page .section form label {
   font-size: 17px;
 }
-.page .section input {
+.page .section form input {
   padding: 10px;
   width: 95%;
   border-radius: 10px;
   outline: none;
   border: 1px solid black;
 }
-.page .section input::-moz-placeholder {
+.page .section form input::-moz-placeholder {
   font-family: FontAwesome;
   font-size: 12px;
 }
-.page .section input:-ms-input-placeholder {
+.page .section form input:-ms-input-placeholder {
   font-family: FontAwesome;
   font-size: 12px;
 }
-.page .section input::placeholder {
+.page .section form input::placeholder {
   font-family: FontAwesome;
   font-size: 12px;
 }
-.page .section input::popup {
-  width: 300px;
-}
-.page button {
+.page .section form button {
   background-color: blue;
-  width: 30%;
+  width: 50%;
   padding: 10px;
   font-size: 25px;
   margin-bottom: 10px;
   border: none;
   border-radius: 10px;
+  align-self: center;
+  cursor: pointer;
 }
-.page button a {
+.page .section form button a {
   color: white;
   text-decoration: none;
 }/*# sourceMappingURL=pag6.css.map */

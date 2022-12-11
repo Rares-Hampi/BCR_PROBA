@@ -36,33 +36,36 @@
           programare.
         </p>
 
-        <form>
+        <form id="form">
           <label for="fname"><b>Adresa de e-mail</b></label>
           <input
             type="text"
-            id="fname"
+            id="email"
             placeholder="Adresa de e-mail"
             class="textbox"
+            required
           />
           <label for="lname"><b>Numar de telefon mobil</b></label>
           <input
             type="text"
-            id="lname"
+            id="telefon"
             placeholder="Numar de telefon mobil"
             class="textbox"
+            required
           />
           <p class="show">
             <i class="fa-solid fa-circle-info"></i>
             In urmatorul pas, vei valida numarul de telefon. Asigura-te ca
             datele sunt introduse corect.
           </p>
+          <button type="submit" id="btn">
+            <a href="/frontend/html/pas6.html" rel="noopener noreferrer"
+              >Continua</a
+            >
+          </button>
         </form>
       </section>
-      <button>
-        <a href="/frontend/html/pas6.html" rel="noopener noreferrer"
-          >Continua</a
-        >
-      </button>
     </main>
+    <script src="/frontend/js/form_mail.js"></script>
   </body>
 </html>

@@ -35,19 +35,25 @@
           Hai sa ne cunoastem. Introdu numele de familie si prenumele.
         </p>
 
-        <form>
+        <form id="form">
           <label for="fname">Prenume</label>
-          <input type="text" id="fname" placeholder="Prenume" />
+          <input type="text" id="fname" placeholder="Prenume" required />
           <label for="lname">Nume de familie</label>
-          <input type="text" id="lname" placeholder="Nume de familie" />
+          <input
+            type="text"
+            id="lname"
+            placeholder="Nume de familie"
+            required
+          />
           <label for="cnp">Numar personal de identificare</label>
           <input
             type="text"
             id="cnp"
             placeholder="Numar personal de identificare"
+            required
           />
-          <div class="acord">
-            <input type="checkbox" id="acord" name="acord" />
+          <div class="acord" id="ascuns">
+            <input type="checkbox" id="acord" name="acord" required />
             <label for="text">
               Sunt de acord cu politica de prelucrare a dateloor cu caracter
               personal.
@@ -56,15 +62,15 @@
           <a
             href="https://george.bcr.ro/appointment/client-info"
             class="termeni"
-            ><p>Descarca termeni si conditii</p>
-          </a>
+            ><p>Descarca termeni si conditii</p> </a
+          ><button type="submit" id="btn">
+            <a href="/frontend/html/pas5.html" rel="noopener noreferrer"
+              >Continua</a
+            >
+          </button>
         </form>
       </section>
-      <button>
-        <a href="/frontend/html/pas5.html" rel="noopener noreferrer"
-          >Continua</a
-        >
-      </button>
     </main>
+    <script src="/frontend/js/form_nume.js"></script>
   </body>
 </html>

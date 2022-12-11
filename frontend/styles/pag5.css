@@ -73,6 +73,21 @@
   margin-left: 15px;
   gap: 10px;
 }
+.page .section form button {
+  background-color: blue;
+  width: 50%;
+  padding: 10px;
+  font-size: 25px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  align-self: center;
+  cursor: pointer;
+}
+.page .section form button a {
+  color: white;
+  text-decoration: none;
+}
 .page .section form label {
   font-size: 17px;
 }
@@ -110,18 +125,4 @@
 .page .section .show i {
   margin-left: 5px;
   margin-right: 5px;
-}
-
-button {
-  background-color: blue;
-  width: 30%;
-  padding: 10px;
-  font-size: 25px;
-  margin-bottom: 10px;
-  border: none;
-  border-radius: 10px;
-}
-button a {
-  color: white;
-  text-decoration: none;
 }/*# sourceMappingURL=pag5.css.map */

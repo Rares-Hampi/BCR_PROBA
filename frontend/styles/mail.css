@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+span {
+  color: blue;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: blue;
+}
+
+.bcr {
+  margin-top: 30px;
+}
+
+.detalii {
+  inline-size: 600px;
+}
+
+.footer {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  flex-direction: column;
+  border-top: 1px solid gray;
+  width: 100%;
+  gap: 15px;
+  padding: 10px;
+}
+.footer .icons {
+  display: flex;
+  gap: 10px;
+}
+.footer .icons i {
+  font-size: 20px;
+  color: #5c7999;
+}/*# sourceMappingURL=mail.css.map */

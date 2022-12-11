@@ -31,6 +31,8 @@ const msg14 = document.querySelector(".msg14");
 const msg15 = document.querySelector(".msg15");
 const msg16 = document.querySelector(".msg16");
 
+let selected_pas1;
+
 elem1.addEventListener("click", (e) => {
   e.preventDefault();
   msg1.style.display = "block";
@@ -49,6 +51,12 @@ elem1.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  console.log(elem1);
+  let p = document.querySelector(".option1");
+
+  selected_pas1 = p.textContent;
+
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem2.addEventListener("click", (e) => {
   e.preventDefault();
@@ -68,6 +76,10 @@ elem2.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option2");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem3.addEventListener("click", (e) => {
   e.preventDefault();
@@ -87,6 +99,10 @@ elem3.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option3");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem4.addEventListener("click", (e) => {
   e.preventDefault();
@@ -106,6 +122,10 @@ elem4.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option4");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem5.addEventListener("click", (e) => {
   e.preventDefault();
@@ -125,6 +145,10 @@ elem5.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option5");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem6.addEventListener("click", (e) => {
   e.preventDefault();
@@ -144,6 +168,10 @@ elem6.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option6");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 
 elem7.addEventListener("click", (e) => {
@@ -164,6 +192,10 @@ elem7.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option7");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem8.addEventListener("click", (e) => {
   e.preventDefault();
@@ -183,6 +215,10 @@ elem8.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option8");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem9.addEventListener("click", (e) => {
   e.preventDefault();
@@ -202,6 +238,10 @@ elem9.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option9");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem10.addEventListener("click", (e) => {
   e.preventDefault();
@@ -221,6 +261,10 @@ elem10.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option10");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem11.addEventListener("click", (e) => {
   e.preventDefault();
@@ -240,6 +284,10 @@ elem11.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option11");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem12.addEventListener("click", (e) => {
   e.preventDefault();
@@ -259,6 +307,10 @@ elem12.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option12");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem13.addEventListener("click", (e) => {
   e.preventDefault();
@@ -278,6 +330,10 @@ elem13.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option13");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem14.addEventListener("click", (e) => {
   e.preventDefault();
@@ -297,6 +353,10 @@ elem14.addEventListener("click", (e) => {
   msg1.style.display = "none";
   msg15.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option14");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem15.addEventListener("click", (e) => {
   e.preventDefault();
@@ -316,6 +376,10 @@ elem15.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg1.style.display = "none";
   msg16.style.display = "none";
+  let p = document.querySelector(".option15");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });
 elem16.addEventListener("click", (e) => {
   e.preventDefault();
@@ -335,4 +399,8 @@ elem16.addEventListener("click", (e) => {
   msg14.style.display = "none";
   msg15.style.display = "none";
   msg1.style.display = "none";
+  let p = document.querySelector(".option16");
+
+  selected_pas1 = p.textContent;
+  localStorage.setItem("Select1", selected_pas1);
 });

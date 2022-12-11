@@ -51,7 +51,29 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  height: 450px;
+  height: 100%;
+  padding-bottom: 50px;
+}
+.page .section .show {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  inline-size: 450px;
+  line-height: 1.5;
+  padding: 10px;
+  border: 1px solid blue;
+  font-size: 14px;
+  color: #21416c;
+  background-color: rgba(29, 91, 249, 0.144);
+  border-radius: 5px;
+  cursor: pointer;
+}
+.page .section .show:hover {
+  border-color: #1a67d2;
+  color: #1a67d2;
+}
+.page .section .show i {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 .page .section h1 {
   font-size: 25px;

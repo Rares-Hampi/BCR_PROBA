@@ -34,7 +34,7 @@
         <p class="txt">
           Introdu codul din 4 cifre primit prin SMS pe numarul 07** *** ***.
         </p>
-        <div>
+        <form>
           <label for="cod"><b>Cod primit prin SMS</b></label>
           <input
             type="text"
@@ -42,18 +42,20 @@
             placeholder="Introdu codul din 4 cifre"
             maxlength="4"
             class="textbox"
+            required
           />
-        </div>
-        Valabilitate cod: 05:00
+          Valabilitate cod: 05:00
+          <button>
+            <a href="/frontend/html/pas7.html" rel="noopener noreferrer">
+              Continua
+            </a>
+          </button>
+        </form>
+
         <span class="error"
           >Nu ai primit codul? Verifica daca numarul introdus este corect.</span
         >
       </section>
-      <button>
-        <a href="/frontend/html/pas7.html" rel="noopener noreferrer">
-          Continua
-        </a>
-      </button>
     </main>
   </body>
 </html>
