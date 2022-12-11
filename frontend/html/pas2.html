@@ -30,7 +30,7 @@
         <p>Pasul 2 - Alege scopul vizitei</p>
         <progress value="20" max="100"></progress>
       </div>
-      <section class="section">
+      <section class="section" id="section">
         <h1>In ce locatie vrei sa ne vizitezi?</h1>
         <p class="txt">
           Cauta unitatea BCR unde programezi vizita dupa adresa, oras/sector sau
@@ -40,6 +40,7 @@
           <label for="text">Cauta unitatea</label>
 
           <input
+          id="judet"
             type="text"
             placeholder="&#61442; Introdu adresa/orasul/sectorul/ sau numele unitatii"
           />
@@ -53,6 +54,7 @@
         >
       </button>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
     <script type="module" src="/backend/api_test.js"></script>
   </body>
 </html>
