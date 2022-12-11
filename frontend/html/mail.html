@@ -11,6 +11,30 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/frontend/styles/mail.css" />
     <title>Mail</title>
   </head>
@@ -21,15 +45,18 @@
       <br />
       <div class="text">
         <p class="detalii">
-          Salut Alexa,<br />
+          Salut <span id="nume"></span>,<br />
           <br />
-          Programarea ta la BCR Stefan cel Mare este confirrmata. <br /><br />
+          Programarea ta la <span id="nume_bcr"></span> este confirrmata.
+          <br /><br />
           Detalii programare: <br /><br />
-          Scopul vizitei: Credite si carduri de credit Locatie: BCR Stefan cel
-          Mare <br />
-          Data si interval orar: 17 nov 2020, 11:00 - 11:30 <br />
-          Adresa: Soseaua Stefan cel Mare, nr. 60, bl. 41, parter, Bucuresti,
-          Sector 2
+          Scopul vizitei: Credite si carduri de credit Locatie:<span
+            id="locatie"
+          ></span>
+          <br />
+          Data si interval orar: <span id="data"></span> <span id="ora"></span
+          ><br />
+          Adresa: <span id="adresa"></span>
         </p>
         <p>
           Pana cand ne intalnim, poti descarca si adauga programarea in
@@ -38,7 +65,7 @@
           <br />
         </p>
         <a
-          href="http://127.0.0.1:5500/frontend/html/pas3.html"
+          href="https://calendar.google.com/calendar/u/0/r?pli=1"
           rel="noopener noreferrer"
           >Adauga calendar</a
         >
@@ -82,5 +109,6 @@
         <img src="/frontend/image/BCR.svg.png" alt="" />
       </div>
     </main>
+    <script src="/frontend/js/mail.js"></script>
   </body>
 </html>

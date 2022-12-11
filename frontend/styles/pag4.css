@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: rgb(235, 233, 233);
+  background-color: rgba(29, 123, 255, 0.3411764706);
+  font-family: "Merriweather", serif;
 }
 
 .navbar {
@@ -24,6 +25,7 @@ body {
 .navbar ul li {
   color: white;
   font-size: 20px;
+  font-family: "Lora", serif;
 }
 
 .page {
@@ -32,7 +34,6 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  background-color: rgb(235, 233, 233);
 }
 .page .status-bar {
   margin-top: 30px;
@@ -52,15 +53,19 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 30px;
+  padding: 30px;
+  border-radius: 10px;
 }
 .page .section h1 {
   font-size: 25px;
+  font-family: "Lora", serif;
 }
 .page .section .txt {
   inline-size: 500px;
   align-self: center;
   margin-left: 10px;
   font-size: 16px;
+  font-family: "Merriweather", serif;
 }
 .page .section form {
   width: 100%;
@@ -89,6 +94,8 @@ body {
 }
 .page .section form label {
   font-size: 17px;
+  font-weight: bold;
+  font-family: "Lora", serif;
 }
 .page .section form input {
   padding: 10px;
@@ -99,14 +106,17 @@ body {
 }
 .page .section form input::-moz-placeholder {
   font-family: FontAwesome;
+  letter-spacing: 1px;
   font-size: 12px;
 }
 .page .section form input:-ms-input-placeholder {
   font-family: FontAwesome;
+  letter-spacing: 1px;
   font-size: 12px;
 }
 .page .section form input::placeholder {
   font-family: FontAwesome;
+  letter-spacing: 1px;
   font-size: 12px;
 }
 .page .section form .acord {
@@ -122,6 +132,8 @@ body {
 .page .section form .acord label {
   margin-left: 5px;
   inline-size: 400px;
+  font-weight: 100;
+  font-family: "Merriweather", serif;
 }
 .page .section a {
   margin-bottom: 10px;

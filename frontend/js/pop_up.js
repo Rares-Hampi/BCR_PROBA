@@ -1,5 +1,6 @@
 const input = document.getElementById("date");
 const ascuns = document.getElementById("ascuns");
+const nonp = document.querySelector(".nonp");
 
 input.addEventListener("click", (e) => {
   e.preventDefault();
@@ -12,8 +13,10 @@ input.addEventListener("change", (e) => {
   localStorage.setItem("Data", e.target.value);
   if (input.value != "") {
     ascuns.style.display = "block";
+    nonp.style.display = "block";
   } else {
     ascuns.style.display = "none";
+    nonp.style.display = "none";
   }
 });
 let texts = document.querySelectorAll("p");

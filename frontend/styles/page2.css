@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: rgb(235, 233, 233);
+  background-color: rgba(29, 123, 255, 0.3411764706);
+  font-family: "Merriweather", serif;
 }
 
 .navbar {
@@ -24,6 +25,7 @@ body {
 .navbar ul li {
   color: white;
   font-size: 20px;
+  font-family: "Lora", serif;
 }
 
 .page {
@@ -53,6 +55,8 @@ body {
   gap: 30px;
   height: 100%;
   padding-bottom: 50px;
+  padding: 50px;
+  border-radius: 10px;
 }
 .page .section .show {
   margin-top: 5px;
@@ -77,6 +81,7 @@ body {
 }
 .page .section h1 {
   font-size: 25px;
+  font-family: "Lora", serif;
 }
 .page .section .txt {
   inline-size: 500px;
@@ -95,6 +100,9 @@ body {
 }
 .page .section form label {
   font-size: 17px;
+  font-family: "Lora", serif;
+  font-weight: bold;
+  margin-bottom: 5px;
 }
 .page .section form input {
   padding: 10px;
@@ -105,15 +113,18 @@ body {
 }
 .page .section form input::-moz-placeholder {
   font-family: FontAwesome;
-  font-size: 12px;
+  letter-spacing: 1px;
+  font-size: 11px;
 }
 .page .section form input:-ms-input-placeholder {
   font-family: FontAwesome;
-  font-size: 12px;
+  letter-spacing: 1px;
+  font-size: 11px;
 }
 .page .section form input::placeholder {
   font-family: FontAwesome;
-  font-size: 12px;
+  letter-spacing: 1px;
+  font-size: 11px;
 }
 .page .section form input::popup {
   width: 300px;

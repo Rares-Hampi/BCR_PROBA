@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Merriweather", serif;
+}
+
 .navbar {
   padding: 10px;
   background-color: #1a67d2;
+  border-bottom: 1px solid white;
 }
 .navbar ul {
   width: 100%;
@@ -19,6 +24,7 @@
 .navbar ul li {
   color: white;
   font-size: 20px;
+  font-family: "Lora", serif;
 }
 
 .page {
@@ -27,15 +33,16 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  background-color: rgb(235, 233, 233);
+  background-color: rgba(29, 123, 255, 0.3411764706);
 }
 .page .status-bar {
   margin-top: 30px;
   text-align: center;
 }
 .page .status-bar p {
-  color: gray;
+  color: rgb(129, 126, 126);
   font-size: 18px;
+  padding-bottom: 5px;
 }
 .page .status-bar progress {
   width: 450px;
@@ -47,15 +54,21 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
+  border-radius: 10px;
+  padding: 10px;
 }
 .page .section h1 {
+  margin-top: 10px;
   font-size: 25px;
+  font-family: "Lora", serif;
+  color: rgb(49, 48, 48);
 }
 .page .section .txt {
   inline-size: 500px;
   align-self: center;
   margin-left: 10px;
   font-size: 16px;
+  font-family: "Lora", serif;
 }
 .page .section .options {
   display: flex;

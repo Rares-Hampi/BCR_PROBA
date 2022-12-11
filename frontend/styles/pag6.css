@@ -6,7 +6,8 @@
 }
 
 body {
-  background-color: rgb(235, 233, 233);
+  background-color: rgba(29, 123, 255, 0.3411764706);
+  font-family: "Merriweather", serif;
 }
 
 .navbar {
@@ -36,7 +37,6 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  background-color: rgb(235, 233, 233);
 }
 .page .status-bar {
   margin-top: 30px;
@@ -57,10 +57,13 @@ body {
   gap: 30px;
   height: 450px;
   padding-left: 15px;
+  padding: 30px;
+  border-radius: 10px;
 }
 .page .section h1 {
   align-self: center;
   font-size: 25px;
+  font-family: "Lora", serif;
 }
 .page .section .txt {
   inline-size: 450px;
@@ -86,6 +89,7 @@ body {
 }
 .page .section form label {
   font-size: 17px;
+  font-family: "Lora", serif;
 }
 .page .section form input {
   padding: 10px;

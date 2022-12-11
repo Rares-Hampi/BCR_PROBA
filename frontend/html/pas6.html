@@ -9,6 +9,30 @@
       src="https://kit.fontawesome.com/15b4c8c2dc.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <title>Pasul 6</title>
   </head>
   <body>
@@ -30,7 +54,9 @@
         <progress value="60" max="70"></progress>
       </div>
       <section class="section">
-        <h1><b>Nume, confirma numarul de telefon</b></h1>
+        <h1>
+          <b><span id="nume"></span>, confirma numarul de telefon</b>
+        </h1>
         <p class="txt">
           Introdu codul din 4 cifre primit prin SMS pe numarul 07** *** ***.
         </p>
@@ -44,7 +70,7 @@
             class="textbox"
             required
           />
-          Valabilitate cod: 05:00
+          <p>Valabilitate cod: <span id="timer"></span></p>
           <button>
             <a href="/frontend/html/pas7.html" rel="noopener noreferrer">
               Continua
@@ -57,5 +83,6 @@
         >
       </section>
     </main>
+    <script src="/frontend/js/timer.js"></script>
   </body>
 </html>
