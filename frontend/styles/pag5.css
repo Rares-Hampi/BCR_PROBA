@@ -5,10 +5,6 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: rgb(235, 233, 233);
-}
-
 .navbar {
   padding: 10px;
   background-color: #1a67d2;
@@ -20,6 +16,10 @@ body {
   flex-direction: row;
   align-items: center;
   list-style: none;
+}
+.navbar ul a {
+  text-decoration: none;
+  color: white;
 }
 .navbar ul li {
   color: white;
@@ -33,9 +33,6 @@ body {
   flex-direction: column;
   gap: 30px;
   background-color: rgb(235, 233, 233);
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
 }
 .page .status-bar {
   margin-top: 30px;
@@ -73,7 +70,8 @@ body {
   justify-content: flex-start;
   margin-left: 10px;
   flex-wrap: wrap;
-  gap: 3px;
+  margin-left: 15px;
+  gap: 10px;
 }
 .page .section form label {
   font-size: 17px;
@@ -97,10 +95,24 @@ body {
   font-family: FontAwesome;
   font-size: 12px;
 }
-.page .section form input::popup {
-  width: 300px;
+.page .section .show {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  inline-size: 500px;
+  line-height: 1.5;
+  padding: 10px;
+  border: 1px solid blue;
+  font-size: 14px;
+  color: #21416c;
+  background-color: rgba(29, 91, 249, 0.144);
+  border-radius: 5px;
 }
-.page button {
+.page .section .show i {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+button {
   background-color: blue;
   width: 30%;
   padding: 10px;
@@ -109,7 +121,7 @@ body {
   border: none;
   border-radius: 10px;
 }
-.page button a {
+button a {
   color: white;
   text-decoration: none;
-}/*# sourceMappingURL=page3.css.map */
+}/*# sourceMappingURL=pag5.css.map */

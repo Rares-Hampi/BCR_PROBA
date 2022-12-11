@@ -21,6 +21,10 @@ body {
   align-items: center;
   list-style: none;
 }
+.navbar ul a {
+  text-decoration: none;
+  color: white;
+}
 .navbar ul li {
   color: white;
   font-size: 20px;
@@ -33,9 +37,6 @@ body {
   flex-direction: column;
   gap: 30px;
   background-color: rgb(235, 233, 233);
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
 }
 .page .status-bar {
   margin-top: 30px;
@@ -52,52 +53,50 @@ body {
   background-color: white;
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   flex-direction: column;
   gap: 30px;
-  height: 550px;
+  height: 450px;
+  padding-left: 15px;
 }
 .page .section h1 {
+  align-self: center;
   font-size: 25px;
 }
 .page .section .txt {
-  inline-size: 500px;
+  inline-size: 450px;
   align-self: center;
   margin-left: 10px;
-  font-size: 16px;
+  font-size: 20px;
 }
-.page .section form {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  margin-left: 10px;
-  flex-wrap: wrap;
-  gap: 3px;
+.page .section .error {
+  color: blue;
+  font-size: 18px;
+  font-weight: bold;
+  inline-size: 400px;
 }
-.page .section form label {
+.page .section label {
   font-size: 17px;
 }
-.page .section form input {
+.page .section input {
   padding: 10px;
   width: 95%;
   border-radius: 10px;
   outline: none;
   border: 1px solid black;
 }
-.page .section form input::-moz-placeholder {
+.page .section input::-moz-placeholder {
   font-family: FontAwesome;
   font-size: 12px;
 }
-.page .section form input:-ms-input-placeholder {
+.page .section input:-ms-input-placeholder {
   font-family: FontAwesome;
   font-size: 12px;
 }
-.page .section form input::placeholder {
+.page .section input::placeholder {
   font-family: FontAwesome;
   font-size: 12px;
 }
-.page .section form input::popup {
+.page .section input::popup {
   width: 300px;
 }
 .page button {
@@ -112,4 +111,4 @@ body {
 .page button a {
   color: white;
   text-decoration: none;
-}/*# sourceMappingURL=page3.css.map */
+}/*# sourceMappingURL=pag6.css.map */

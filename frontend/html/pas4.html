@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pasul 4</title>
+    <link rel="stylesheet" href="/frontend/styles/pag4.css" />
+    <script
+      src="https://kit.fontawesome.com/15b4c8c2dc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <a
+          href="http://127.0.0.1:5500/frontend/html/pas2.html"
+          rel="noopener noreferrer"
+        >
+          <li><i class="fa-solid fa-chevron-left"></i></li
+        ></a>
+        <li>Programare vizita la BCR</li>
+        <li><span>RO</span>|<span>EN</span></li>
+      </ul>
+    </nav>
+    <main class="page">
+      <div class="status-bar">
+        <p>Pasul 4 - Sa ne cunoastem</p>
+        <progress value="40" max="70"></progress>
+      </div>
+      <section class="section">
+        <h1>Salut, cum te numesti?</h1>
+        <p class="txt">
+          Hai sa ne cunoastem. Introdu numele de familie si prenumele.
+        </p>
+
+        <form>
+          <label for="fname">Prenume</label>
+          <input type="text" id="fname" placeholder="Prenume" />
+          <label for="lname">Nume de familie</label>
+          <input type="text" id="lname" placeholder="Nume de familie" />
+          <label for="cnp">Numar personal de identificare</label>
+          <input
+            type="text"
+            id="cnp"
+            placeholder="Numar personal de identificare"
+          />
+          <div class="acord">
+            <input type="checkbox" id="acord" name="acord" />
+            <label for="text">
+              Sunt de acord cu politica de prelucrare a dateloor cu caracter
+              personal.
+            </label>
+          </div>
+          <a
+            href="https://george.bcr.ro/appointment/client-info"
+            class="termeni"
+            ><p>Descarca termeni si conditii</p>
+          </a>
+        </form>
+      </section>
+      <button>
+        <a href="/frontend/html/pas5.html" rel="noopener noreferrer"
+          >Continua</a
+        >
+      </button>
+    </main>
+  </body>
+</html>

@@ -33,9 +33,6 @@ body {
   flex-direction: column;
   gap: 30px;
   background-color: rgb(235, 233, 233);
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
 }
 .page .status-bar {
   margin-top: 30px;
@@ -55,7 +52,6 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  height: 550px;
 }
 .page .section h1 {
   font-size: 25px;
@@ -73,7 +69,8 @@ body {
   justify-content: flex-start;
   margin-left: 10px;
   flex-wrap: wrap;
-  gap: 3px;
+  gap: 15px;
+  margin-left: 15px;
 }
 .page .section form label {
   font-size: 17px;
@@ -97,10 +94,29 @@ body {
   font-family: FontAwesome;
   font-size: 12px;
 }
-.page .section form input::popup {
-  width: 300px;
+.page .section form .acord {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
-.page button {
+.page .section form .acord input {
+  width: auto;
+  width: 15px;
+  height: 15px;
+}
+.page .section form .acord label {
+  margin-left: 5px;
+  inline-size: 400px;
+}
+.page .section a {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: blue;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+button {
   background-color: blue;
   width: 30%;
   padding: 10px;
@@ -109,7 +125,7 @@ body {
   border: none;
   border-radius: 10px;
 }
-.page button a {
+button a {
   color: white;
   text-decoration: none;
-}/*# sourceMappingURL=page3.css.map */
+}/*# sourceMappingURL=pag4.css.map */
